@@ -7,12 +7,12 @@
             Para inserir no carrinho de compras
 
             Contexto:
-            Dado que eu acesse a plataforma EBAC - Shop 
+            Dado que eu acesse a plataforma EBAC - Shop
 
             Cenário: Configuração de cor, tamanho e quantidade
             Quando eu escolher a cor e tamanho disponíveis do produto
             E a quantidade de produto para a compra até 10 unidades
-            Então deve mostrar mensagem "adicionar produto no carrinho"
+            Então deve mostrar mensagem "adicionar o produto no carrinho"
 
             Cenário: Configuração de quantidade inválida
             Quando eu escolher quantidade > 10 unidades
@@ -26,16 +26,16 @@
             Quando eu escolher <cor> do produto
             E escolher o <tamanho> dos produtos
             E escolher a <quantidade> do produto até 10 unidades
-            Então deve mostrar a <mensagem> adicionar produto no carrinho
+            Então deve mostrar a <mensagem>
 
 
             Exemplos:
             | cor       | tamanho | quantidade | mensagem                          |
-            | "amarelo" | "M"     | "3"        | "adicionar o produto no carrinho" |
+            | "verde"   | "P"     | "3"        | "adicionar o produto no carrinho" |
             | "amarelo" | "M"     | "2"        | "adicionar o produto no carrinho" |
             | "azul"    | "P"     | "5"        | "adicionar o produto no carrinho" |
             | "amarelo" | "G"     | "5"        | "adicionar o produto no carrinho" |
-            | "amarelo" | "M"     | "5"        | "adicionar o produto no carrinho" |
+            | "amarelo" | "XP"    | "5"        | "adicionar o produto no carrinho" |
 
 
 
