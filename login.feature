@@ -23,12 +23,12 @@
             Esquema do Cenário: Autenticações válidas
             Quando eu digitar o <usuario>
             E a <senha>
-            Então o sistema deve exibir meus pedidos e exibir a mensagem "ir para o checkout"
+            Então o sistema deve exibir meus pedidos e a <mensagem>
 
             Exemplos:
             | usuario                  | senha       | mensagem             |
             | "llpupp@ebacshop.com.br" | "llpupp123" | "ir para o checkout" |
             | "maria@ebacshop.com.br"  | "maria123"  | "ir para o checkout" |
             | "joao@ebacshop.com.br"   | "joao123"   | "ir para o checkout" |
-            | "llpupp@ebacshop.com.br" | "llpupp123" | "ir para o checkout" |
-            | "llpupp@ebacshop.com.br" | "llpupp123" | "ir para o checkout" |
+            | "carlos@ebacshop.com.br" | "ca@123"    | "ir para o checkout" |
+            | "jose@ebacshop.com.br"   | "joli321"   | "ir para o checkout" |
